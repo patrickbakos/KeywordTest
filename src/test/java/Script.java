@@ -1,4 +1,7 @@
 import org.junit.jupiter.api.*;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvFileSource;
+import org.junit.jupiter.params.provider.ValueSource;
 import org.openqa.selenium.chrome.ChromeDriver;
 import sracok.Repository;
 import sracok.Util;
@@ -43,14 +46,15 @@ public class Script {
         assertEquals("https://www.seleniumeasy.com/test/basic-first-form-demo.html", currentUrl(driver));
     }
 
-    @Test
-    public void singleInputField() {
+    @ParameterizedTest
+    @CsvFileSource(resources = "/data.csv", numLinesToSkip = 1)
+    public void singleInputField(String input) {
 
         openPage("https://www.seleniumeasy.com/test/basic-first-form-demo.html", driver);
 
-        writeText(SingleInputFieldInputField(driver), "Lobab");
+        writeText(SingleInputFieldInputField(driver), input);
         clickButton(SubmitSingleInputMessage(driver));
 
-        assertEquals("Lobab", innnerText(SingleInputMessageConfirmation(driver)));
+        assertEquals(input, innnerText(SingleInputMessageConfirmation(driver, input)));
     }
 }

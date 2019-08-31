@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="084f9ccb-d932-4272-a1b0-8b099cae61f9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sracok/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sracok/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sracok/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sracok/Repository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Script.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Script.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,8 +24,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/sracok/Repository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="38" column="105" selection-start-line="38" selection-start-column="105" selection-end-line="38" selection-end-column="105" />
+            <state relative-caret-position="398">
+              <caret line="37" column="43" lean-forward="true" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -44,26 +47,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/sracok/Util.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#263#264#0" expanded="true" />
                 <element signature="e#303#304#0" expanded="true" />
-                <element signature="e#397#398#0" expanded="true" />
+                <element signature="e#393#394#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Script.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="323">
+              <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#349#350#0" expanded="true" />
@@ -73,6 +76,24 @@
                 <element signature="e#536#537#0" expanded="true" />
                 <element signature="e#565#566#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/data.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="5" selection-start-column="5" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -92,13 +113,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Keyword.java" />
         <option value="$PROJECT_DIR$/src/main/java/Repository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sracok/Repository.java" />
         <option value="$PROJECT_DIR$/src/main/java/sracok/Keyword.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Script.java" />
         <option value="$PROJECT_DIR$/src/main/java/sracok/Util.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/data.csv" />
+        <option value="$PROJECT_DIR$/src/main/java/sracok/Repository.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Script.java" />
       </list>
     </option>
   </component>
@@ -159,6 +181,13 @@
               <item name="keywordtest" type="b2602c69:ProjectViewProjectNode" />
               <item name="keywordtest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="keywordtest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="keywordtest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -214,22 +243,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Script">
+  <component name="RunManager" selected="JUnit.Script.singleInputField (1)">
     <configuration name="Script" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="keywordtest" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Script" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Script.clickSimpleDemoFromMenu" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="keywordtest" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Script" />
-      <option name="METHOD_NAME" value="clickSimpleDemoFromMenu" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -254,6 +273,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Script.singleInputField (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="keywordtest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Script" />
+      <option name="METHOD_NAME" value="singleInputField(java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Script.singleInputField" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="keywordtest" />
       <option name="PACKAGE_NAME" value="" />
@@ -266,11 +295,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Script.singleInputField (1)" />
         <item itemvalue="JUnit.Script" />
         <item itemvalue="JUnit.Script.singleInputField" />
         <item itemvalue="JUnit.Script.simpleDemoFromMenu" />
         <item itemvalue="JUnit.Script.openSeleniumPage" />
-        <item itemvalue="JUnit.Script.clickSimpleDemoFromMenu" />
       </list>
     </recent_temporary>
   </component>
@@ -285,7 +314,7 @@
       <option name="presentableId" value="Default" />
       <updated>1567256690664</updated>
       <workItem from="1567256695103" duration="12129000" />
-      <workItem from="1567274422974" duration="2816000" />
+      <workItem from="1567274422974" duration="3656000" />
     </task>
     <task id="LOCAL-00001" summary="single input message confirmation">
       <created>1567277061175</created>
@@ -294,16 +323,17 @@
       <option name="project" value="LOCAL" />
       <updated>1567277061175</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="single input message confirmation - driver creation modified">
+      <created>1567277291492</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1567277291492</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Script_singleInputField - 2019.08.31 at 20h 28m 04s.xml">
-      <configuration name="Script.singleInputField" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Script_singleInputField - 2019.08.31 at 20h 28m 32s.xml">
-      <configuration name="Script.singleInputField" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Script - 2019.08.31 at 20h 28m 49s.xml">
       <configuration name="Script" configurationId="JUnit" />
     </history-entry>
@@ -328,9 +358,15 @@
     <history-entry file="Script - 2019.08.31 at 20h 43m 40s.xml">
       <configuration name="Script" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Script - 2019.08.31 at 20h 47m 41s.xml">
+      <configuration name="Script" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Script_singleInputField_(1) - 2019.08.31 at 20h 59m 15s.xml">
+      <configuration name="Script.singleInputField (1)" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14945000" />
+    <option name="totallyTimeSpent" value="15785000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="70" y="27" width="1850" height="1053" extended-state="6" />
@@ -368,30 +404,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="single input message confirmation" />
-    <option name="LAST_COMMIT_MESSAGE" value="single input message confirmation" />
+    <MESSAGE value="single input message confirmation - driver creation modified" />
+    <option name="LAST_COMMIT_MESSAGE" value="single input message confirmation - driver creation modified" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar!/org/openqa/selenium/support/ui/WebDriverWait.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sracok/Repository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="38" column="105" selection-start-line="38" selection-start-column="105" selection-end-line="38" selection-end-column="105" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -401,6 +421,33 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sracok/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -416,10 +463,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sracok/Repository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="37" column="43" lean-forward="true" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Script.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="323">
+          <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#349#350#0" expanded="true" />
@@ -428,19 +485,6 @@
             <element signature="e#472#473#0" expanded="true" />
             <element signature="e#536#537#0" expanded="true" />
             <element signature="e#565#566#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sracok/Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#397#398#0" expanded="true" />
           </folding>
         </state>
       </provider>

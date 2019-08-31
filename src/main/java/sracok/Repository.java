@@ -35,8 +35,8 @@ public class Repository {
         return Util.wait(driver,10).until(ExpectedConditions.presenceOfElementLocated(By.xpath("//button[.='Show Message']")));
     }
 
-    public static WebElement SingleInputMessageConfirmation (WebDriver driver) {
-        return Util.wait(driver, 10).until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[.='Lobab']")));
+    public static WebElement SingleInputMessageConfirmation (WebDriver driver, String input) {
+        return Util.wait(driver, 10).until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[.='" + input + "']")));
     }
 
 }
