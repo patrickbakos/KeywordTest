@@ -6,12 +6,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Keyword {
 
-    private static ChromeDriver driver = new ChromeDriver();
-
-    public static ChromeDriver getDriver() {
-        return driver;
-    }
-
     public static void openPage (String url, WebDriver driver) {
         driver.get(url);
     }
@@ -28,5 +22,9 @@ public class Keyword {
         return webElement.isDisplayed();
     }
 
+    public static void writeText (WebElement webElement, String text) { webElement.sendKeys(text); }
 
+    public static void clickButton (WebElement webElement) { webElement.click(); }
+
+    public static String innnerText (WebElement webElement) { return webElement.getText(); }
 }

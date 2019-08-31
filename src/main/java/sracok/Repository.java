@@ -26,4 +26,17 @@ public class Repository {
     public static void waitForPageToLoad (WebDriver driver, String url) {
         Util.wait(driver, 10).until(ExpectedConditions.urlToBe("https://www.seleniumeasy.com/test/basic-first-form-demo.html"));
     }
+
+    public static WebElement SingleInputFieldInputField (WebDriver driver) {
+        return Util.wait(driver, 10).until(ExpectedConditions.presenceOfElementLocated(By.id("user-message")));
+    }
+
+    public static WebElement SubmitSingleInputMessage (WebDriver driver) {
+        return Util.wait(driver,10).until(ExpectedConditions.presenceOfElementLocated(By.xpath("//button[.='Show Message']")));
+    }
+
+    public static WebElement SingleInputMessageConfirmation (WebDriver driver) {
+        return Util.wait(driver, 10).until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[.='Lobab']")));
+    }
+
 }

@@ -1,6 +1,7 @@
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import sracok.Repository;
+import sracok.Util;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static sracok.Keyword.*;
@@ -10,27 +11,24 @@ public class Script {
 
     private static ChromeDriver driver;
 
-    @BeforeAll
-    static void driver() {
-        driver = getDriver();
+    @BeforeEach
+    void driver() {
+        driver = Util.getDriver();
+    }
+
+    @BeforeEach
+    void startingSite() {
+        openPage("https://www.seleniumeasy.com/test/", driver);
     }
 
     @AfterEach
     void closePage() {
-        getDriver().close();
+        driver.quit();
     }
 
-    @Test
-    public void openSeleniumPage () {
-
-        openPage("https://www.seleniumeasy.com/test/", driver);
-        assertEquals("https://www.seleniumeasy.com/test/", currentUrl(driver));
-    }
 
     @Test
-    public void clickSimpleDemoFromMenu() {
-
-        openPage("https://www.seleniumeasy.com/test/", driver);
+    public void simpleDemoFromMenu() {
 
         if (isDisplayed(SimpleFormDemoMenu(driver))) {
             clickElement(SimpleFormDemoMenu(driver));
@@ -43,5 +41,16 @@ public class Script {
             clickElement(SimpleFormDemoMenu(driver));
         }
         assertEquals("https://www.seleniumeasy.com/test/basic-first-form-demo.html", currentUrl(driver));
+    }
+
+    @Test
+    public void singleInputField() {
+
+        openPage("https://www.seleniumeasy.com/test/basic-first-form-demo.html", driver);
+
+        writeText(SingleInputFieldInputField(driver), "Lobab");
+        clickButton(SubmitSingleInputMessage(driver));
+
+        assertEquals("Lobab", innnerText(SingleInputMessageConfirmation(driver)));
     }
 }
