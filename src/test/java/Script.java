@@ -1,17 +1,12 @@
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
-import org.junit.jupiter.params.provider.ValueSource;
 import org.openqa.selenium.chrome.ChromeDriver;
-import sracok.Repository;
-import sracok.Util;
-
-import java.math.BigInteger;
-import java.util.ArrayList;
+import sracok.keywordtest.Util;
 
 import static org.junit.jupiter.api.Assertions.*;
-import static sracok.Keyword.*;
-import static sracok.Repository.*;
+import static sracok.keywordtest.Keyword.*;
+import static sracok.keywordtest.Repository.*;
 
 public class Script {
 
