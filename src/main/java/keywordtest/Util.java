@@ -1,4 +1,4 @@
-package sracok;
+package sracok.keywordtest;
 
 
 import org.openqa.selenium.WebDriver;
