@@ -2,13 +2,13 @@ import org.junit.jupiter.api.*;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 import org.openqa.selenium.chrome.ChromeDriver;
-import sracok.keywordtest.Util;
+import keywordtest.Util;
 
 import static org.junit.jupiter.api.Assertions.*;
-import static sracok.keywordtest.Keyword.*;
-import static sracok.keywordtest.Repository.*;
+import static keywordtest.Keyword.*;
+import static keywordtest.Repository.*;
 
-public class Script {
+public class KeywordScript {
 
     private static ChromeDriver driver;
 

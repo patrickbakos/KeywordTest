@@ -1,4 +1,4 @@
-package sracok.keywordtest;
+package keywordtest;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
