@@ -3,6 +3,7 @@ package sracok;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
 
 public class Keyword {
 
@@ -24,7 +25,9 @@ public class Keyword {
 
     public static void writeText (WebElement webElement, String text) { webElement.sendKeys(text); }
 
-    public static void clickButton (WebElement webElement) { webElement.click(); }
+    public static String innerText (WebElement webElement) { return webElement.getText(); }
 
-    public static String innnerText (WebElement webElement) { return webElement.getText(); }
+    public static boolean isSelected (WebElement webElement) { return webElement.isSelected(); }
+
+    public static void selectFromSelectTag (Select select, String value) { select.selectByVisibleText(value);}
 }
